@@ -28,6 +28,10 @@ e.g.  `.java,//,/*,*/`
 
 (See supported_languages.csv as an example)
 
+Note that in languages that DO NOT have a way to create single or multi line comments, like in HTML, you may leave the parameter empty.  
+
+e.g. `.html,,<!--,-->
+
 # Assumptions
 1. Source code files have the appropriate file extension (e.g. Python files have the .py extension)
 2. The programming language has a unique way to create single line and multi-line comments (e.g. '//' is the only way to define a single-line comment in Java, '/\*' and '\*/' is the only way to define a multi-line comment in Java)
