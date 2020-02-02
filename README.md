@@ -30,7 +30,7 @@ e.g.  `.java,//,/*,*/`
 
 # Assumptions
 1. Source code files have the appropriate file extension (e.g. Python files have the .py extension)
-2. The programming language has a unique way to create single line and multi-line comments (e.g. '//' is the only way to define a single-line comment in Java, '/*' and '*/' is the only way to define a multi-line comment in Java)
+2. The programming language has a unique way to create single line and multi-line comments (e.g. '//' is the only way to define a single-line comment in Java, '/\*' and '\*/' is the only way to define a multi-line comment in Java)
 3. There is a correctly formatted schema file (see above and supported_languages.csv)
 4. Multi-line comments that only span a single line count as a multi-line comment
 
