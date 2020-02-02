@@ -20,9 +20,9 @@ In the spirit of modularity, I've added a 'programming languages schema',
 which defines the programming language and its commenting syntax. This program
 is thus easily scalable to allow for different programming languages.
 
-The format is:
-      file_extension,single_line_comment,begin_multi_line_comment,end_multi_line_comment
-e.g.  .java,//,/*,*/
+The format is:  
+      `file_extension,single_line_comment,begin_multi_line_comment,end_multi_line_comment`
+e.g.  .java,//,/\*,\*/
 
 (See supported_languages.csv as an example)
 
