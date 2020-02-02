@@ -5,6 +5,8 @@ The main.py and AnalyzeCode.py program files were my interpretation of
 the Capital One technical assessment.
 
 # To run the program:
+First, clone the repository using `git clone https://github.com/JasonYG/capital-one-technical-assessment`.   
+Then, use:  
 `python main.py [source code file names] schema_file`
 
 An example command would be:  
