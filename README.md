@@ -30,7 +30,7 @@ e.g.  `.java,//,/*,*/`
 
 Note that in languages that DO NOT have a way to create single or multi line comments, like in HTML, you may leave the parameter empty.  
 
-e.g. `.html,,<!--,-->
+e.g. `.html,,<!--,-->`
 
 # Assumptions
 1. Source code files have the appropriate file extension (e.g. Python files have the .py extension)
